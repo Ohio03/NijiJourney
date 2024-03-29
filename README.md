@@ -13,11 +13,12 @@ A high-quality anime image generator API project by rehat666
 ![Preview Image 4](./images/image_4.png)
 
 
-## Usage
+## Installation
 
 ```
 npm install @rehat666/niji-api
 ```
+## Usage
 
 ```javascript
 const { Niji } = require('@rehat666/niji-api');
