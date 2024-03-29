@@ -1,5 +1,5 @@
 {
-  "name": "niji-api",
+  "name": "@rehat666/niji-api",
   "version": "1.0.0",
   "description": "A high quality anime image generator api project by rehat666",
   "main": "index.js",
