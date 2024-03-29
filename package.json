@@ -1,5 +1,5 @@
 {
-  "name": "@rehat666/niji-project",
+  "name": "@rehat666/NijiJourney",
   "version": "1.0.0",
   "description": "A high quality anime image generator api project by rehat666",
   "main": "index.js",
@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ohio03/niji-project"
+    "url": "https://github.com/Ohio03/NijiJourney"
   },
   "scripts": {
-    "postinstall": "echo 'Thank you for installing @rehat666/niji-project'"
+    "postinstall": "echo 'Thank you for installing @rehat666/NijiJourney'"
   }
 }
