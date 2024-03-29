@@ -8,7 +8,7 @@ A high-quality anime image generator API project by rehat666
 
 ## Usage
 
-```javascript
+```
 npm install @rehat666/niji-api
 ```
 
