@@ -22,7 +22,6 @@ npm install @rehat666/niji-api
 
 ```javascript
 const { Niji } = require('@rehat666/niji-api');
-
 const niji = new Niji("rehat"); // The main api key of the project do not change it!
 
 (async () => {
