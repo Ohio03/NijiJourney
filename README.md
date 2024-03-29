@@ -9,9 +9,13 @@ A high-quality anime image generator API project by rehat666
 ## Usage
 
 ```javascript
+npm install @rehat666/niji-api
+```
+
+```javascript
 const { Niji } = require('@rehat666/niji-api');
 
-const niji = new Niji("rehat"); // The main API key of the project. Do not change it!
+const niji = new Niji("rehat"); // The main api key of the project. Do not change it!
 
 (async () => {
   try {
