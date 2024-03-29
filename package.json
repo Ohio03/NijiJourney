@@ -1,0 +1,25 @@
+{
+  "name": "niji-api",
+  "version": "1.0.0",
+  "description": "A high quality anime image generator api project by rehat666",
+  "main": "index.js",
+  "keywords": [
+    "text2image",
+    "image2image",
+    "sdxl",
+    "niji",
+    "ai"
+  ],
+  "author": "rehat666",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ohio03/niji-api"
+  },
+  "scripts": {
+    "postinstall": "echo 'Thank you for installing @rehat666/niji-api'"
+  }
+}
