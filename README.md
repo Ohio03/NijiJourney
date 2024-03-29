@@ -6,6 +6,13 @@ A high-quality anime image generator API project by rehat666
 
 ![Preview Image 1](./images/image_1.png)
 
+![Preview Image 2](./images/image_2.png)
+
+![Preview Image 3](./images/image_3.png)
+
+![Preview Image 4](./images/image_4.png)
+
+
 ## Usage
 
 ```
