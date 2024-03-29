@@ -1,4 +1,4 @@
-# @rehat666/niji-api
+# @rehat666/NijiJourney
 
 A high-quality anime image generator API project by rehat666
 
@@ -16,12 +16,12 @@ A high-quality anime image generator API project by rehat666
 ## Installation
 
 ```
-npm install @rehat666/niji-api
+npm install @rehat666/NijiJourney
 ```
 ## Usage
 
 ```javascript
-const { Niji } = require('@rehat666/niji-api');
+const { Niji } = require('@rehat666/NijiJourney');
 const niji = new Niji("rehat"); // The main api key of the project do not change it!
 
 (async () => {
@@ -38,4 +38,4 @@ const niji = new Niji("rehat"); // The main api key of the project do not change
   }
 })();
 ```
-## Thanks for using @rehat666/niji-api!
+## Thanks for using @rehat666/NijiJourney!
