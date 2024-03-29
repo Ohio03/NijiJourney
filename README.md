@@ -27,4 +27,4 @@ const niji = new Niji("rehat"); // The main API key of the project. Do not chang
   }
 })();
 ```
-## Thanks for Using @rehat666/niji-api!
+## Thanks for using @rehat666/niji-api!
