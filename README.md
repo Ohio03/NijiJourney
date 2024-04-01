@@ -34,7 +34,7 @@ Niji(prompt, imageUrl, aspectRatio)
 - Don't sell my source code.
 - Don't claim my source code as your own.
 
-## Creators
+## Creator
 - <div style="display: flex; align-items: center;"><a href="https://github.com/Ohio03">Saad Al Saud (Ohio03)&nbsp;&nbsp;</a> <img src="https://github.com/Ohio03.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="Ohio03"></div>
 - <div style="display: flex; align-items: center;"><a href="https://github.com/siam38">Abdullah Al Siam (Siam38)&nbsp;&nbsp;</a> <img src="https://github.com/siam38.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="siam38"></div>
 
