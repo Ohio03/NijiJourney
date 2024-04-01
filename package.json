@@ -1,14 +1,15 @@
 {
   "name": "@rehat666/nijijourney",
-  "version": "1.0.0",
-  "description": "A high quality anime image generator api project by rehat666",
+  "version": "1.0.1",
+  "description": "A high quality anime image generator project.",
   "main": "index.js",
   "keywords": [
     "text2image",
     "image2image",
     "sdxl",
     "niji",
-    "ai"
+    "ai",
+    "midjourney"
   ],
   "author": "rehat666",
   "license": "MIT",
