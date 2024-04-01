@@ -33,8 +33,11 @@ Niji(prompt, imageUrl, aspectRatio)
 ## License
 - Don't sell my source code.
 - Don't claim my source code as your own.
-- NijiJourney Project Created By **[Abdullah Al Siam (siam38)](https://github.com/siam38)**
 
-**[Saad Al Saud (Ohio03)](https://github.com/Ohio03)**
+## Creators
+- <div style="display: flex; align-items: center;"><a href="https://github.com/Ohio03">Saad Al Saud (Ohio03)&nbsp;&nbsp;</a> <img src="https://github.com/Ohio03.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="Ohio03"></div>
+- <div style="display: flex; align-items: center;"><a href="https://github.com/siam38">Abdullah Al Siam (Siam38)&nbsp;&nbsp;</a> <img src="https://github.com/siam38.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="siam38"></div>
 
 ## Thanks for using @rehat666/nijijourney!
+
+
