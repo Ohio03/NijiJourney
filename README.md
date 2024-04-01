@@ -1,4 +1,4 @@
-A high-quality anime image generator API project by rehat666
+A high-quality anime image generator api project by rehat666
 
 ## Preview
 
