@@ -1,5 +1,3 @@
-# @rehat666/nijijourney
-
 A high-quality anime image generator API project by rehat666
 
 ## Preview
@@ -22,20 +20,20 @@ npm install @rehat666/nijijourney
 
 ```javascript
 const { Niji } = require('@rehat666/nijijourney');
-const niji = new Niji("rehat"); // The main api key of the project do not change it!
 
-(async () => {
-  try {
-    const generate = await niji.Create({
-      prompt: '', // Prompt to generate text to image.
-      imageUrl: '', // URL of the image for transforming an existing image with prompt.
-      aspectRatio: '' // Ratio for adjusting the image aspect ratio in text to image not recommended for transforming existing images.
-    });
+const prompt = ''; // Prompt to generate text to image.
+const imageUrl = ''; // URL of the image for transforming an existing image with prompt.
+const aspectRatio = ''; // Ratio for adjusting the image aspect ratio in text to image not recommended for transforming existing images.
 
-    console.log(generate);
-  } catch (error) {
-    console.error(error);
-  }
-})();
+Niji(prompt, imageUrl, aspectRatio)
+  .then(imageUrl => console.log(imageUrl))
+  .catch(error => console.error(error));
 ```
+
+## License
+- Don't sell my source code.
+- Don't claim my source code as your own.
+- NijiJourney Project Created By **[Abdullah Al Siam (siam38)](https://github.com/siam38)**
+**[Saad Al Saud (Ohio03)](https://github.com/Ohio03)**
+
 ## Thanks for using @rehat666/nijijourney!
