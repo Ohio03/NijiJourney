@@ -1,5 +1,3 @@
 const { Niji } = require('./niji.js');
 
-module.exports = {
-  Niji
-};
+module.exports = { Niji };
