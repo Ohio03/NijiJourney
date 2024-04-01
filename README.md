@@ -1,5 +1,3 @@
-A high-quality anime image generator api project!!
-
 ## Preview
 
 ![Preview Image 1](./images/image_1.png)
