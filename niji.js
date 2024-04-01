@@ -1,23 +1,23 @@
 const axios = require('axios');
+const Niji = async (prompt, imageUrl = '', aspectRatio = '1:1') => {
+  let apiUrl = `https://project-niji.onrender.com/api/v1/generate?prompt=${encodeURIComponent(prompt)}&apikey=rehat`;
 
-class Niji {
-  constructor(apiKey = null) {
-    this.apiKey = apiKey;
+  if (imageUrl) {
+    apiUrl += `&imageUrl=${encodeURIComponent(imageUrl)}`;
   }
 
-  async Create(prompt, imageUrl = '', aspectRatio = '1:1') {
-    if (!prompt) {
-      console.error('Please provide a prompt.');
-    }
-    const apiUrl = `https://project-niji.onrender.com/api/v1/generate?prompt=${encodeURIComponent(prompt)}&aspectRatio=${aspectRatio}&apikey=${this.apiKey}${imageUrl ? `&imageUrl=${encodeURIComponent(imageUrl)}` : ''}`;
-    try {
-      const response = await axios.post(apiUrl);
-      return response.data.url;
-    } catch (error) {
-      console.error(error);
-      throw error;
-    }
+  if (aspectRatio) {
+    apiUrl += `&aspectRatio=${encodeURIComponent(aspectRatio)}`;
   }
-}
+
+  try {
+    const response = await axios.post(apiUrl);
+    let generatedImageUrl = response.data.url;
+    return generatedImageUrl;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+};
 
 module.exports = { Niji };
