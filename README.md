@@ -22,6 +22,7 @@ const { Niji } = require('@rehat666/nijijourney');
 const prompt = ''; // Prompt to generate text to image.
 const imageUrl = ''; // URL of the image for transforming an existing image with prompt.
 const aspectRatio = ''; // Ratio for adjusting the image aspect ratio in text to image not recommended for transforming existing images.
+// more perameters exist
 
 Niji(prompt, imageUrl, aspectRatio)
   .then(imageUrl => console.log(imageUrl))
