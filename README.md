@@ -47,7 +47,7 @@ Niji(prompt, imageUrl, aspectRatio)
 - Don't claim my source code as your own.
 
 ## API Provider & Creator (Unofficial)
-- <div style="display: flex; align-items: center;"><a href="https://github.com/Ohio03">Saad Al Saud (Ohio03)&nbsp;&nbsp;</a> <img src="https://github.com/rehatdesu.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="Ohio03"></div>
-- <div style="display: flex; align-items: center;"><a href="https://github.com/siam38">Abdullah Al Siam (Siam38)&nbsp;&nbsp;</a> <img src="https://github.com/siam38.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="siam38"></div>
+- <div style="display: flex; align-items: center;"><a href="https://github.com/Ohio03">Saad Al Saud (rehatdesu)&nbsp;&nbsp;</a> <img src="https://github.com/rehatdesu.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="Ohio03"></div>
+- <div style="display: flex; align-items: center;"><a href="https://github.com/siam38">Abdullah Al Siam (siam38)&nbsp;&nbsp;</a> <img src="https://github.com/siam38.png" width="20" height="20" style="border-radius:50%; margin-top: px;" alt="siam38"></div>
 
 ## Thanks for using @rehat666/nijijourney!
